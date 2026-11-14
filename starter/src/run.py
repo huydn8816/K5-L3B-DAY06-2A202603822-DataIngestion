@@ -1,18 +1,28 @@
-"""Suggested pipeline entry point; TODO: implement the orchestration."""
+"""Single entry point for the Day 06 pipeline (run from starter/).
+
+    python -m src.run                  # build chunks -> index -> retrieval
+    python -m src.run --with-manual    # also regenerate manual-assessment sheets
+
+Manual sheets are optional because regenerating them changes the blinded row codes;
+only regenerate when the labels are being redone (see RUN_LOCAL.md).
+"""
+import sys
+
+from . import build_chunks, index_chunks, prepare_manual_sheets, retrieve
 
 
-def main() -> None:
-    """TODO:
-
-    1. Load the corpus and benchmark; validate at least 30 content pages.
-    2. Build strategies A (fixed), B (paragraph) and C (B + metadata filter).
-    3. Embed with the same model and store vectors/metadata per strategy.
-    4. Run the same dev/test questions and save full top-3 traces.
-    5. Report retrieval metrics and prepare samples for manual assessment.
-
-    Follow the five dimensions in ../../BENCHMARK.md.
-    """
-    raise NotImplementedError("TODO: implement the Day 06 pipeline")
+def main(argv: list[str] | None = None) -> None:
+    argv = sys.argv[1:] if argv is None else argv
+    steps = [
+        ("1. chunk A and B", build_chunks.main),
+        ("2. embed and index in Chroma", index_chunks.main),
+        ("3. retrieval and hit metrics", retrieve.main),
+    ]
+    if "--with-manual" in argv:
+        steps.append(("4. manual-assessment sheets", prepare_manual_sheets.main))
+    for name, fn in steps:
+        print(f"== {name}", flush=True)
+        fn()
 
 
 if __name__ == "__main__":

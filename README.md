@@ -45,3 +45,30 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Bài làm cá nhân: cài đặt, chạy và đường dẫn
+
+Chi tiết lệnh chạy trên máy không có Docker: [starter/RUN_LOCAL.md](starter/RUN_LOCAL.md).
+
+**Cài đặt** (từ thư mục `starter/`): `python -m pip install -r requirements.txt`, sau đó cài torch CPU và các phiên bản trong RUN_LOCAL.md. Không cần API key; embedding chạy local.
+
+**Chạy theo thứ tự** (từ `starter/`):
+1. `python -m src.build_chunks`: làm sạch văn bản, chunk A và B.
+2. `python -m src.index_chunks`: embed và nạp vào Chroma local.
+3. `python -m src.retrieve`: truy xuất top-3 cho 21 câu hỏi, tính Hit@1 và Evidence Hit@3.
+4. `python -m src.prepare_manual_sheets`: tạo sheet chấm thủ công (đã ẩn tên cấu hình).
+
+Hoặc chạy bước 1–3 bằng một lệnh: `python -m src.run`. Thêm `--with-manual` để tạo lại sheet chấm (lệnh này đổi mã ẩn, chỉ dùng khi chấm lại).
+
+Kiểm tra benchmark (từ thư mục gốc): `python -I benchmark/validate_benchmark.py`.
+
+**Đường dẫn dữ liệu và kết quả:**
+- Văn bản luật: `data/raw/luat_19_2023_qh15.txt`; bản đã làm sạch: `data/processed/luat_19_2023_qh15.normalized.txt`.
+- Manifest (nguồn, giấy phép, danh sách 80 điều): `data/manifest.json`.
+- Benchmark (21 câu, 15 dev / 6 test) và giải thích: `benchmark/questions.jsonl`, `benchmark/README.md`.
+- Nhật ký thí nghiệm: `artifacts/experiment_log.csv`.
+- Kết quả, trace, chỉ số, sheet chấm: `results/` (chi tiết trong `results/` và RUN_LOCAL.md). Dữ liệu vector `results/chroma/` không nộp, tái tạo bằng bước 2.
+- Báo cáo cá nhân: `report/individual/` (tên file theo `<MSSV>_<HoTen>.md`).
+- Thông tin học viên: `STUDENT.md`.
