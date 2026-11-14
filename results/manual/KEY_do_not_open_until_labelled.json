@@ -1,0 +1,590 @@
+{
+  "CO009": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 1,
+    "chunk_id": "A-0000"
+  },
+  "CO010": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 1,
+    "chunk_id": "B-0000"
+  },
+  "CO002": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 9,
+    "chunk_id": "A-0032"
+  },
+  "CO012": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 9,
+    "chunk_id": "B-0016"
+  },
+  "CO006": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 17,
+    "chunk_id": "A-0058"
+  },
+  "CO017": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 17,
+    "chunk_id": "B-0028"
+  },
+  "CO013": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 25,
+    "chunk_id": "A-0081"
+  },
+  "CO011": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 25,
+    "chunk_id": "B-0039"
+  },
+  "CO014": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 33,
+    "chunk_id": "A-0107"
+  },
+  "CO020": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 33,
+    "chunk_id": "B-0051"
+  },
+  "CO007": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 41,
+    "chunk_id": "A-0144"
+  },
+  "CO004": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 41,
+    "chunk_id": "B-0071"
+  },
+  "CO015": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 49,
+    "chunk_id": "A-0165"
+  },
+  "CO001": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 49,
+    "chunk_id": "B-0082"
+  },
+  "CO019": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 57,
+    "chunk_id": "A-0182"
+  },
+  "CO005": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 57,
+    "chunk_id": "B-0091"
+  },
+  "CO016": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 65,
+    "chunk_id": "A-0198"
+  },
+  "CO018": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 65,
+    "chunk_id": "B-0099"
+  },
+  "CO008": {
+    "sheet": "coherence",
+    "strategy": "A",
+    "article": 73,
+    "chunk_id": "A-0209"
+  },
+  "CO003": {
+    "sheet": "coherence",
+    "strategy": "B",
+    "article": 73,
+    "chunk_id": "B-0106"
+  },
+  "MD018": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T01",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:A-0126"
+  },
+  "MD044": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T01",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:A-0122"
+  },
+  "MD020": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T01",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:A-0089"
+  },
+  "MD002": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T01",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0061"
+  },
+  "MD053": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T01",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0058"
+  },
+  "MD046": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T01",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0079"
+  },
+  "MD029": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T01",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0061"
+  },
+  "MD025": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T01",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0058"
+  },
+  "MD028": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T01",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0079"
+  },
+  "MD041": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T02",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:A-0148"
+  },
+  "MD007": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T02",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:A-0150"
+  },
+  "MD047": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T02",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:A-0145"
+  },
+  "MD001": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T02",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0073"
+  },
+  "MD003": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T02",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0072"
+  },
+  "MD036": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T02",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0003"
+  },
+  "MD050": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T02",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0073"
+  },
+  "MD009": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T02",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0072"
+  },
+  "MD045": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T02",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0003"
+  },
+  "MD038": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T03",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:A-0202"
+  },
+  "MD035": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T03",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:A-0027"
+  },
+  "MD049": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T03",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:A-0203"
+  },
+  "MD032": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T03",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0053"
+  },
+  "MD033": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T03",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0012"
+  },
+  "MD022": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T03",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0054"
+  },
+  "MD011": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T03",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0106"
+  },
+  "MD021": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T03",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0088"
+  },
+  "MD043": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T03",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0098"
+  },
+  "MD017": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T04",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:A-0207"
+  },
+  "MD039": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T04",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:A-0206"
+  },
+  "MD004": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T04",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:A-0210"
+  },
+  "MD006": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T04",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0085"
+  },
+  "MD054": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T04",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0106"
+  },
+  "MD005": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T04",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0105"
+  },
+  "MD051": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T04",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0106"
+  },
+  "MD027": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T04",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0105"
+  },
+  "MD052": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T04",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0104"
+  },
+  "MD040": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T05",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:A-0098"
+  },
+  "MD023": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T05",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:A-0034"
+  },
+  "MD048": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T05",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:A-0040"
+  },
+  "MD012": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T05",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0047"
+  },
+  "MD008": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T05",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0048"
+  },
+  "MD019": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T05",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0033"
+  },
+  "MD031": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T05",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0047"
+  },
+  "MD026": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T05",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0048"
+  },
+  "MD013": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T05",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0033"
+  },
+  "MD024": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T06",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:A-0231"
+  },
+  "MD014": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T06",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:A-0233"
+  },
+  "MD037": {
+    "sheet": "metadata",
+    "strategy": "A",
+    "question": "T06",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:A-0234"
+  },
+  "MD034": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T06",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0116"
+  },
+  "MD042": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T06",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0118"
+  },
+  "MD010": {
+    "sheet": "metadata",
+    "strategy": "B",
+    "question": "T06",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0110"
+  },
+  "MD030": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T06",
+    "rank": 1,
+    "chunk_id": "luat-19-2023-qh15:B-0116"
+  },
+  "MD016": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T06",
+    "rank": 2,
+    "chunk_id": "luat-19-2023-qh15:B-0118"
+  },
+  "MD015": {
+    "sheet": "metadata",
+    "strategy": "C",
+    "question": "T06",
+    "rank": 3,
+    "chunk_id": "luat-19-2023-qh15:B-0110"
+  },
+  "GR018": {
+    "sheet": "grounding",
+    "strategy": "A",
+    "question": "T01"
+  },
+  "GR001": {
+    "sheet": "grounding",
+    "strategy": "B",
+    "question": "T01"
+  },
+  "GR016": {
+    "sheet": "grounding",
+    "strategy": "C",
+    "question": "T01"
+  },
+  "GR013": {
+    "sheet": "grounding",
+    "strategy": "A",
+    "question": "T02"
+  },
+  "GR005": {
+    "sheet": "grounding",
+    "strategy": "B",
+    "question": "T02"
+  },
+  "GR004": {
+    "sheet": "grounding",
+    "strategy": "C",
+    "question": "T02"
+  },
+  "GR010": {
+    "sheet": "grounding",
+    "strategy": "A",
+    "question": "T03"
+  },
+  "GR011": {
+    "sheet": "grounding",
+    "strategy": "B",
+    "question": "T03"
+  },
+  "GR009": {
+    "sheet": "grounding",
+    "strategy": "C",
+    "question": "T03"
+  },
+  "GR002": {
+    "sheet": "grounding",
+    "strategy": "A",
+    "question": "T04"
+  },
+  "GR014": {
+    "sheet": "grounding",
+    "strategy": "B",
+    "question": "T04"
+  },
+  "GR006": {
+    "sheet": "grounding",
+    "strategy": "C",
+    "question": "T04"
+  },
+  "GR003": {
+    "sheet": "grounding",
+    "strategy": "A",
+    "question": "T05"
+  },
+  "GR015": {
+    "sheet": "grounding",
+    "strategy": "B",
+    "question": "T05"
+  },
+  "GR008": {
+    "sheet": "grounding",
+    "strategy": "C",
+    "question": "T05"
+  },
+  "GR007": {
+    "sheet": "grounding",
+    "strategy": "A",
+    "question": "T06"
+  },
+  "GR017": {
+    "sheet": "grounding",
+    "strategy": "B",
+    "question": "T06"
+  },
+  "GR012": {
+    "sheet": "grounding",
+    "strategy": "C",
+    "question": "T06"
+  }
+}

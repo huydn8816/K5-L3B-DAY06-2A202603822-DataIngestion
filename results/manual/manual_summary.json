@@ -1,0 +1,51 @@
+{
+  "coherence": {
+    "A": {
+      "n": 10,
+      "mean": 1.1,
+      "dist": {
+        "2": 2,
+        "1": 7,
+        "0": 1
+      }
+    },
+    "B": {
+      "n": 10,
+      "mean": 2.0,
+      "dist": {
+        "2": 10
+      }
+    }
+  },
+  "grounding": {
+    "A": {
+      "n": 6,
+      "dist": {
+        "2": 6
+      },
+      "mean": 2.0
+    },
+    "B": {
+      "n": 6,
+      "dist": {
+        "0": 2,
+        "2": 4
+      },
+      "mean": 1.33
+    },
+    "C": {
+      "n": 6,
+      "dist": {
+        "0": 1,
+        "2": 5
+      },
+      "mean": 1.67
+    }
+  },
+  "metadata": {
+    "rows": 54,
+    "auto_check_passed": 54,
+    "C_filtered_rows": 6,
+    "C_filter_compliant": 6
+  }
+}

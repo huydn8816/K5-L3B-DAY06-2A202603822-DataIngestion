@@ -1,0 +1,48 @@
+{
+  "corpus_units_articles": 80,
+  "annotation_removal": {
+    "link_label": 24,
+    "data_href_fragment": 24,
+    "task_note": 12,
+    "decree_ref": 21,
+    "effective_window_note": 21,
+    "replacement_note": 7,
+    "quote_marker_stripped": 7,
+    "guidance_note": 53,
+    "articles": 80
+  },
+  "params": {
+    "A": {
+      "strategy": "fixed_size",
+      "size": 500,
+      "overlap": 50
+    },
+    "B": {
+      "strategy": "by_structure",
+      "max_size": 1500,
+      "min_size": 400
+    }
+  },
+  "A": {
+    "count": 237,
+    "min": 490,
+    "median": 500,
+    "max": 500,
+    "total_chars": 118391,
+    "chunks_spanning_multiple_articles": 81
+  },
+  "B": {
+    "count": 119,
+    "min": 86,
+    "median": 872,
+    "max": 1500,
+    "total_chars": 106496,
+    "chunks_spanning_multiple_articles": 3,
+    "split_level_counts": {
+      "article": 48,
+      "khoan": 51,
+      "sentence": 17,
+      "merged": 3
+    }
+  }
+}
